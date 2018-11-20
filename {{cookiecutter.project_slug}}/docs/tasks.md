@@ -174,8 +174,8 @@ tox
 GLOB sdist-make: /home/nickfury/proyectos/microservicios/avengers_api/setup.py
 py36 create: /home/nickfury/proyectos/microservicios/avengers_api/.tox/py36
 py36 installdeps: -r/home/nickfury/proyectos/microservicios/avengers_api/requirements-tests.txt
-py36 inst: /home/nickfury/proyectos/microservicios/avengers_api/.tox/.tmp/package/1/MS-Scaffold-0.1.0.zip
-py36 installed: anyconfig==0.9.7,astroid==2.0.4,atomicwrites==1.2.1,attrs==18.2.0,certifi==2018.10.15,chardet==3.0.4,Click==7.0,clickclick==1.2.2,connexion==2.0.2,coverage==4.5.2,coveralls==1.5.1,docopt==0.6.2,filelock==3.0.10,flake8==3.6.0,Flask==1.0.2,Flask-OpenTracing==0.2.0,Flask-Script==2.0.6,Flask-SQLAlchemy==2.3.2,idna==2.7,inflection==0.3.1,isort==4.3.4,itsdangerous==1.1.0,jaeger-client==3.12.0,Jinja2==2.10,jsonschema==2.6.0,lazy-object-proxy==1.3.1,livereload==2.5.2,Markdown==3.0.1,MarkupSafe==1.1.0,mccabe==0.6.1,mkdocs==0.17.5,more-itertools==4.3.0,MS-Scaffold==0.1.0,nose==1.3.7,openapi-spec-validator==0.2.4,opentracing==1.3.0,pluggy==0.8.0,py==1.7.0,py-ms==0.1.1,pycodestyle==2.4.0,pyflakes==2.0.0,pylint==2.1.1,pytest==4.0.0,python-json-logger==0.1.10,PyYAML==3.13,requests==2.20.1,six==1.11.0,SQLAlchemy==1.2.14,swagger-ui-bundle==0.0.2,threadloop==1.0.2,thrift==0.11.0,toml==0.10.0,tornado==4.5.3,tox==3.5.3,typed-ast==1.1.0,urllib3==1.24.1,virtualenv==16.1.0,Werkzeug==0.14.1,wrapt==1.10.11
+py36 inst: /home/nickfury/proyectos/microservicios/avengers_api/.tox/.tmp/package/1/MS-avengers_api-0.1.0.zip
+py36 installed: anyconfig==0.9.7,astroid==2.0.4,atomicwrites==1.2.1,attrs==18.2.0,certifi==2018.10.15,chardet==3.0.4,Click==7.0,clickclick==1.2.2,connexion==2.0.2,coverage==4.5.2,coveralls==1.5.1,docopt==0.6.2,filelock==3.0.10,flake8==3.6.0,Flask==1.0.2,Flask-OpenTracing==0.2.0,Flask-Script==2.0.6,Flask-SQLAlchemy==2.3.2,idna==2.7,inflection==0.3.1,isort==4.3.4,itsdangerous==1.1.0,jaeger-client==3.12.0,Jinja2==2.10,jsonschema==2.6.0,lazy-object-proxy==1.3.1,livereload==2.5.2,Markdown==3.0.1,MarkupSafe==1.1.0,mccabe==0.6.1,mkdocs==0.17.5,more-itertools==4.3.0,MS-avengers_api==0.1.0,nose==1.3.7,openapi-spec-validator==0.2.4,opentracing==1.3.0,pluggy==0.8.0,py==1.7.0,py-ms==0.1.1,pycodestyle==2.4.0,pyflakes==2.0.0,pylint==2.1.1,pytest==4.0.0,python-json-logger==0.1.10,PyYAML==3.13,requests==2.20.1,six==1.11.0,SQLAlchemy==1.2.14,swagger-ui-bundle==0.0.2,threadloop==1.0.2,thrift==0.11.0,toml==0.10.0,tornado==4.5.3,tox==3.5.3,typed-ast==1.1.0,urllib3==1.24.1,virtualenv==16.1.0,Werkzeug==0.14.1,wrapt==1.10.11
 py36 run-test-pre: PYTHONHASHSEED='432109883'
 py36 runtests: commands[0] | coverage run /home/nickfury/proyectos/microservicios/avengers_api/.tox/py36/bin/nosetests
 ....
@@ -185,8 +185,8 @@ Ran 4 tests in 1.303s
 OK
 py35 create: /home/nickfury/proyectos/microservicios/avengers_api/.tox/py35
 py35 installdeps: -r/home/nickfury/proyectos/microservicios/avengers_api/requirements-tests.txt
-py35 inst: /home/nickfury/proyectos/microservicios/avengers_api/.tox/.tmp/package/1/MS-Scaffold-0.1.0.zip
-py35 installed: anyconfig==0.9.7,astroid==2.0.4,atomicwrites==1.2.1,attrs==18.2.0,certifi==2018.10.15,chardet==3.0.4,Click==7.0,clickclick==1.2.2,connexion==2.0.2,coverage==4.5.2,coveralls==1.5.1,docopt==0.6.2,filelock==3.0.10,flake8==3.6.0,Flask==1.0.2,Flask-OpenTracing==0.2.0,Flask-Script==2.0.6,Flask-SQLAlchemy==2.3.2,idna==2.7,inflection==0.3.1,isort==4.3.4,itsdangerous==1.1.0,jaeger-client==3.12.0,Jinja2==2.10,jsonschema==2.6.0,lazy-object-proxy==1.3.1,livereload==2.5.2,Markdown==3.0.1,MarkupSafe==1.1.0,mccabe==0.6.1,mkdocs==0.17.5,more-itertools==4.3.0,MS-Scaffold==0.1.0,nose==1.3.7,openapi-spec-validator==0.2.4,opentracing==1.3.0,pathlib2==2.3.2,pluggy==0.8.0,py==1.7.0,py-ms==0.1.1,pycodestyle==2.4.0,pyflakes==2.0.0,pylint==2.1.1,pytest==4.0.0,python-json-logger==0.1.10,PyYAML==3.13,requests==2.20.1,six==1.11.0,SQLAlchemy==1.2.14,swagger-ui-bundle==0.0.2,threadloop==1.0.2,thrift==0.11.0,toml==0.10.0,tornado==4.5.3,tox==3.5.3,typed-ast==1.1.0,typing==3.6.6,urllib3==1.24.1,virtualenv==16.1.0,Werkzeug==0.14.1,wrapt==1.10.11
+py35 inst: /home/nickfury/proyectos/microservicios/avengers_api/.tox/.tmp/package/1/MS-avengers_api-0.1.0.zip
+py35 installed: anyconfig==0.9.7,astroid==2.0.4,atomicwrites==1.2.1,attrs==18.2.0,certifi==2018.10.15,chardet==3.0.4,Click==7.0,clickclick==1.2.2,connexion==2.0.2,coverage==4.5.2,coveralls==1.5.1,docopt==0.6.2,filelock==3.0.10,flake8==3.6.0,Flask==1.0.2,Flask-OpenTracing==0.2.0,Flask-Script==2.0.6,Flask-SQLAlchemy==2.3.2,idna==2.7,inflection==0.3.1,isort==4.3.4,itsdangerous==1.1.0,jaeger-client==3.12.0,Jinja2==2.10,jsonschema==2.6.0,lazy-object-proxy==1.3.1,livereload==2.5.2,Markdown==3.0.1,MarkupSafe==1.1.0,mccabe==0.6.1,mkdocs==0.17.5,more-itertools==4.3.0,MS-avengers_api==0.1.0,nose==1.3.7,openapi-spec-validator==0.2.4,opentracing==1.3.0,pathlib2==2.3.2,pluggy==0.8.0,py==1.7.0,py-ms==0.1.1,pycodestyle==2.4.0,pyflakes==2.0.0,pylint==2.1.1,pytest==4.0.0,python-json-logger==0.1.10,PyYAML==3.13,requests==2.20.1,six==1.11.0,SQLAlchemy==1.2.14,swagger-ui-bundle==0.0.2,threadloop==1.0.2,thrift==0.11.0,toml==0.10.0,tornado==4.5.3,tox==3.5.3,typed-ast==1.1.0,typing==3.6.6,urllib3==1.24.1,virtualenv==16.1.0,Werkzeug==0.14.1,wrapt==1.10.11
 py35 run-test-pre: PYTHONHASHSEED='432109883'
 py35 runtests: commands[0] | coverage run /home/nickfury/proyectos/microservicios/avengers_api/.tox/py35/bin/nosetests
 ....
@@ -255,39 +255,39 @@ rm -fr .pytest_cache
 python setup.py sdist
 running sdist
 running egg_info
-creating MS_Scaffold.egg-info
-writing MS_Scaffold.egg-info/PKG-INFO
-writing dependency_links to MS_Scaffold.egg-info/dependency_links.txt
-writing top-level names to MS_Scaffold.egg-info/top_level.txt
-writing manifest file 'MS_Scaffold.egg-info/SOURCES.txt'
-reading manifest file 'MS_Scaffold.egg-info/SOURCES.txt'
-writing manifest file 'MS_Scaffold.egg-info/SOURCES.txt'
+creating MS-avengers_api.egg-info
+writing MS-avengers_api.egg-info/PKG-INFO
+writing dependency_links to MS-avengers_api.egg-info/dependency_links.txt
+writing top-level names to MS-avengers_api.egg-info/top_level.txt
+writing manifest file 'MS-avengers_api.egg-info/SOURCES.txt'
+reading manifest file 'MS-avengers_api.egg-info/SOURCES.txt'
+writing manifest file 'MS-avengers_api.egg-info/SOURCES.txt'
 running check
-creating MS-Scaffold-0.1.0
-creating MS-Scaffold-0.1.0/MS_Scaffold.egg-info
-creating MS-Scaffold-0.1.0/avengers_api
-creating MS-Scaffold-0.1.0/avengers_api/models
-creating MS-Scaffold-0.1.0/avengers_api/views
-creating MS-Scaffold-0.1.0/tests
-copying files to MS-Scaffold-0.1.0...
-copying README.md -> MS-Scaffold-0.1.0
-copying setup.py -> MS-Scaffold-0.1.0
-copying MS_Scaffold.egg-info/PKG-INFO -> MS-Scaffold-0.1.0/MS_Scaffold.egg-info
-copying MS_Scaffold.egg-info/SOURCES.txt -> MS-Scaffold-0.1.0/MS_Scaffold.egg-info
-copying MS_Scaffold.egg-info/dependency_links.txt -> MS-Scaffold-0.1.0/MS_Scaffold.egg-info
-copying MS_Scaffold.egg-info/top_level.txt -> MS-Scaffold-0.1.0/MS_Scaffold.egg-info
-copying avengers_api/__init__.py -> MS-Scaffold-0.1.0/avengers_api
-copying avengers_api/models/__init__.py -> MS-Scaffold-0.1.0/avengers_api/models
-copying avengers_api/models/init_db.py -> MS-Scaffold-0.1.0/avengers_api/models
-copying avengers_api/models/models.py -> MS-Scaffold-0.1.0/avengers_api/models
-copying avengers_api/views/__init__.py -> MS-Scaffold-0.1.0/avengers_api/views
-copying avengers_api/views/views.py -> MS-Scaffold-0.1.0/avengers_api/views
-copying tests/__init__.py -> MS-Scaffold-0.1.0/tests
-copying tests/test_views.py -> MS-Scaffold-0.1.0/tests
-Writing MS-Scaffold-0.1.0/setup.cfg
+creating MS-avengers_api-0.1.0
+creating MS-avengers_api-0.1.0/MS-avengers_api.egg-info
+creating MS-avengers_api-0.1.0/avengers_api
+creating MS-avengers_api-0.1.0/avengers_api/models
+creating MS-avengers_api-0.1.0/avengers_api/views
+creating MS-avengers_api-0.1.0/tests
+copying files to MS-avengers_api-0.1.0...
+copying README.md -> MS-avengers_api-0.1.0
+copying setup.py -> MS-avengers_api-0.1.0
+copying MS-avengers_api.egg-info/PKG-INFO -> MS-avengers_api-0.1.0/MS-avengers_api.egg-info
+copying MS-avengers_api.egg-info/SOURCES.txt -> MS-avengers_api-0.1.0/MS-avengers_api.egg-info
+copying MS-avengers_api.egg-info/dependency_links.txt -> MS-avengers_api-0.1.0/MS-avengers_api.egg-info
+copying MS-avengers_api.egg-info/top_level.txt -> MS-avengers_api-0.1.0/MS-avengers_api.egg-info
+copying avengers_api/__init__.py -> MS-avengers_api-0.1.0/avengers_api
+copying avengers_api/models/__init__.py -> MS-avengers_api-0.1.0/avengers_api/models
+copying avengers_api/models/init_db.py -> MS-avengers_api-0.1.0/avengers_api/models
+copying avengers_api/models/models.py -> MS-avengers_api-0.1.0/avengers_api/models
+copying avengers_api/views/__init__.py -> MS-avengers_api-0.1.0/avengers_api/views
+copying avengers_api/views/views.py -> MS-avengers_api-0.1.0/avengers_api/views
+copying tests/__init__.py -> MS-avengers_api-0.1.0/tests
+copying tests/test_views.py -> MS-avengers_api-0.1.0/tests
+Writing MS-avengers_api-0.1.0/setup.cfg
 creating dist
 Creating tar archive
-removing 'MS-Scaffold-0.1.0' (and everything under it)
+removing 'MS-avengers_api-0.1.0' (and everything under it)
 python setup.py bdist_wheel
 running bdist_wheel
 running build
@@ -307,11 +307,11 @@ creating build/lib/avengers_api/views
 copying avengers_api/views/__init__.py -> build/lib/avengers_api/views
 copying avengers_api/views/views.py -> build/lib/avengers_api/views
 running egg_info
-writing dependency_links to MS_Scaffold.egg-info/dependency_links.txt
-writing MS_Scaffold.egg-info/PKG-INFO
-writing top-level names to MS_Scaffold.egg-info/top_level.txt
-reading manifest file 'MS_Scaffold.egg-info/SOURCES.txt'
-writing manifest file 'MS_Scaffold.egg-info/SOURCES.txt'
+writing dependency_links to MS-avengers_api.egg-info/dependency_links.txt
+writing MS-avengers_api.egg-info/PKG-INFO
+writing top-level names to MS-avengers_api.egg-info/top_level.txt
+reading manifest file 'MS-avengers_api.egg-info/SOURCES.txt'
+writing manifest file 'MS-avengers_api.egg-info/SOURCES.txt'
 installing to build/bdist.linux-x86_64/wheel
 running install
 running install_lib
@@ -330,11 +330,11 @@ creating build/bdist.linux-x86_64/wheel/tests
 copying build/lib/tests/__init__.py -> build/bdist.linux-x86_64/wheel/tests
 copying build/lib/tests/test_views.py -> build/bdist.linux-x86_64/wheel/tests
 running install_egg_info
-Copying MS_Scaffold.egg-info to build/bdist.linux-x86_64/wheel/MS_Scaffold-0.1.0-py3.5.egg-info
+Copying MS-avengers_api.egg-info to build/bdist.linux-x86_64/wheel/MS-avengers_api-0.1.0-py3.5.egg-info
 running install_scripts
 adding license file "AUTHORS" (matched pattern "AUTHORS*")
-creating build/bdist.linux-x86_64/wheel/MS_Scaffold-0.1.0.dist-info/WHEEL
-creating 'dist/MS_Scaffold-0.1.0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+creating build/bdist.linux-x86_64/wheel/MS-avengers_api-0.1.0.dist-info/WHEEL
+creating 'dist/MS-avengers_api-0.1.0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
 adding 'avengers_api/__init__.py'
 adding 'avengers_api/models/__init__.py'
 adding 'avengers_api/models/init_db.py'
@@ -343,16 +343,16 @@ adding 'avengers_api/views/__init__.py'
 adding 'avengers_api/views/views.py'
 adding 'tests/__init__.py'
 adding 'tests/test_views.py'
-adding 'MS_Scaffold-0.1.0.dist-info/AUTHORS'
-adding 'MS_Scaffold-0.1.0.dist-info/METADATA'
-adding 'MS_Scaffold-0.1.0.dist-info/WHEEL'
-adding 'MS_Scaffold-0.1.0.dist-info/top_level.txt'
-adding 'MS_Scaffold-0.1.0.dist-info/RECORD'
+adding 'MS-avengers_api-0.1.0.dist-info/AUTHORS'
+adding 'MS-avengers_api-0.1.0.dist-info/METADATA'
+adding 'MS-avengers_api-0.1.0.dist-info/WHEEL'
+adding 'MS-avengers_api-0.1.0.dist-info/top_level.txt'
+adding 'MS-avengers_api-0.1.0.dist-info/RECORD'
 removing build/bdist.linux-x86_64/wheel
 ls -l dist
 total 12
--rw-rw-r-- 1 nickfury nickfury 4937 nov 20 11:31 MS_Scaffold-0.1.0-py3-none-any.whl
--rw-rw-r-- 1 nickfury nickfury 3462 nov 20 11:31 MS-Scaffold-0.1.0.tar.gz
+-rw-rw-r-- 1 nickfury nickfury 4937 nov 20 11:31 MS-avengers_api-0.1.0-py3-none-any.whl
+-rw-rw-r-- 1 nickfury nickfury 3462 nov 20 11:31 MS-avengers_api-0.1.0.tar.gz
 
 ```
 
@@ -378,39 +378,39 @@ rm -fr .pytest_cache
 python setup.py sdist
 running sdist
 running egg_info
-creating MS_Scaffold.egg-info
-writing dependency_links to MS_Scaffold.egg-info/dependency_links.txt
-writing top-level names to MS_Scaffold.egg-info/top_level.txt
-writing MS_Scaffold.egg-info/PKG-INFO
-writing manifest file 'MS_Scaffold.egg-info/SOURCES.txt'
-reading manifest file 'MS_Scaffold.egg-info/SOURCES.txt'
-writing manifest file 'MS_Scaffold.egg-info/SOURCES.txt'
+creating MS-avengers_api.egg-info
+writing dependency_links to MS-avengers_api.egg-info/dependency_links.txt
+writing top-level names to MS-avengers_api.egg-info/top_level.txt
+writing MS-avengers_api.egg-info/PKG-INFO
+writing manifest file 'MS-avengers_api.egg-info/SOURCES.txt'
+reading manifest file 'MS-avengers_api.egg-info/SOURCES.txt'
+writing manifest file 'MS-avengers_api.egg-info/SOURCES.txt'
 running check
-creating MS-Scaffold-0.1.0
-creating MS-Scaffold-0.1.0/MS_Scaffold.egg-info
-creating MS-Scaffold-0.1.0/avengers_api
-creating MS-Scaffold-0.1.0/avengers_api/models
-creating MS-Scaffold-0.1.0/avengers_api/views
-creating MS-Scaffold-0.1.0/tests
-copying files to MS-Scaffold-0.1.0...
-copying README.md -> MS-Scaffold-0.1.0
-copying setup.py -> MS-Scaffold-0.1.0
-copying MS_Scaffold.egg-info/PKG-INFO -> MS-Scaffold-0.1.0/MS_Scaffold.egg-info
-copying MS_Scaffold.egg-info/SOURCES.txt -> MS-Scaffold-0.1.0/MS_Scaffold.egg-info
-copying MS_Scaffold.egg-info/dependency_links.txt -> MS-Scaffold-0.1.0/MS_Scaffold.egg-info
-copying MS_Scaffold.egg-info/top_level.txt -> MS-Scaffold-0.1.0/MS_Scaffold.egg-info
-copying avengers_api/__init__.py -> MS-Scaffold-0.1.0/avengers_api
-copying avengers_api/models/__init__.py -> MS-Scaffold-0.1.0/avengers_api/models
-copying avengers_api/models/init_db.py -> MS-Scaffold-0.1.0/avengers_api/models
-copying avengers_api/models/models.py -> MS-Scaffold-0.1.0/avengers_api/models
-copying avengers_api/views/__init__.py -> MS-Scaffold-0.1.0/avengers_api/views
-copying avengers_api/views/views.py -> MS-Scaffold-0.1.0/avengers_api/views
-copying tests/__init__.py -> MS-Scaffold-0.1.0/tests
-copying tests/test_views.py -> MS-Scaffold-0.1.0/tests
-Writing MS-Scaffold-0.1.0/setup.cfg
+creating MS-avengers_api-0.1.0
+creating MS-avengers_api-0.1.0/MS-avengers_api.egg-info
+creating MS-avengers_api-0.1.0/avengers_api
+creating MS-avengers_api-0.1.0/avengers_api/models
+creating MS-avengers_api-0.1.0/avengers_api/views
+creating MS-avengers_api-0.1.0/tests
+copying files to MS-avengers_api-0.1.0...
+copying README.md -> MS-avengers_api-0.1.0
+copying setup.py -> MS-avengers_api-0.1.0
+copying MS-avengers_api.egg-info/PKG-INFO -> MS-avengers_api-0.1.0/MS-avengers_api.egg-info
+copying MS-avengers_api.egg-info/SOURCES.txt -> MS-avengers_api-0.1.0/MS-avengers_api.egg-info
+copying MS-avengers_api.egg-info/dependency_links.txt -> MS-avengers_api-0.1.0/MS-avengers_api.egg-info
+copying MS-avengers_api.egg-info/top_level.txt -> MS-avengers_api-0.1.0/MS-avengers_api.egg-info
+copying avengers_api/__init__.py -> MS-avengers_api-0.1.0/avengers_api
+copying avengers_api/models/__init__.py -> MS-avengers_api-0.1.0/avengers_api/models
+copying avengers_api/models/init_db.py -> MS-avengers_api-0.1.0/avengers_api/models
+copying avengers_api/models/models.py -> MS-avengers_api-0.1.0/avengers_api/models
+copying avengers_api/views/__init__.py -> MS-avengers_api-0.1.0/avengers_api/views
+copying avengers_api/views/views.py -> MS-avengers_api-0.1.0/avengers_api/views
+copying tests/__init__.py -> MS-avengers_api-0.1.0/tests
+copying tests/test_views.py -> MS-avengers_api-0.1.0/tests
+Writing MS-avengers_api-0.1.0/setup.cfg
 creating dist
 Creating tar archive
-removing 'MS-Scaffold-0.1.0' (and everything under it)
+removing 'MS-avengers_api-0.1.0' (and everything under it)
 python setup.py bdist_wheel
 running bdist_wheel
 running build
@@ -430,11 +430,11 @@ creating build/lib/avengers_api/views
 copying avengers_api/views/__init__.py -> build/lib/avengers_api/views
 copying avengers_api/views/views.py -> build/lib/avengers_api/views
 running egg_info
-writing top-level names to MS_Scaffold.egg-info/top_level.txt
-writing MS_Scaffold.egg-info/PKG-INFO
-writing dependency_links to MS_Scaffold.egg-info/dependency_links.txt
-reading manifest file 'MS_Scaffold.egg-info/SOURCES.txt'
-writing manifest file 'MS_Scaffold.egg-info/SOURCES.txt'
+writing top-level names to MS-avengers_api.egg-info/top_level.txt
+writing MS-avengers_api.egg-info/PKG-INFO
+writing dependency_links to MS-avengers_api.egg-info/dependency_links.txt
+reading manifest file 'MS-avengers_api.egg-info/SOURCES.txt'
+writing manifest file 'MS-avengers_api.egg-info/SOURCES.txt'
 installing to build/bdist.linux-x86_64/wheel
 running install
 running install_lib
@@ -453,11 +453,11 @@ creating build/bdist.linux-x86_64/wheel/tests
 copying build/lib/tests/__init__.py -> build/bdist.linux-x86_64/wheel/tests
 copying build/lib/tests/test_views.py -> build/bdist.linux-x86_64/wheel/tests
 running install_egg_info
-Copying MS_Scaffold.egg-info to build/bdist.linux-x86_64/wheel/MS_Scaffold-0.1.0-py3.5.egg-info
+Copying MS-avengers_api.egg-info to build/bdist.linux-x86_64/wheel/MS-avengers_api-0.1.0-py3.5.egg-info
 running install_scripts
 adding license file "AUTHORS" (matched pattern "AUTHORS*")
-creating build/bdist.linux-x86_64/wheel/MS_Scaffold-0.1.0.dist-info/WHEEL
-creating 'dist/MS_Scaffold-0.1.0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+creating build/bdist.linux-x86_64/wheel/MS-avengers_api-0.1.0.dist-info/WHEEL
+creating 'dist/MS-avengers_api-0.1.0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
 adding 'avengers_api/__init__.py'
 adding 'avengers_api/models/__init__.py'
 adding 'avengers_api/models/init_db.py'
@@ -466,16 +466,16 @@ adding 'avengers_api/views/__init__.py'
 adding 'avengers_api/views/views.py'
 adding 'tests/__init__.py'
 adding 'tests/test_views.py'
-adding 'MS_Scaffold-0.1.0.dist-info/AUTHORS'
-adding 'MS_Scaffold-0.1.0.dist-info/METADATA'
-adding 'MS_Scaffold-0.1.0.dist-info/WHEEL'
-adding 'MS_Scaffold-0.1.0.dist-info/top_level.txt'
-adding 'MS_Scaffold-0.1.0.dist-info/RECORD'
+adding 'MS-avengers_api-0.1.0.dist-info/AUTHORS'
+adding 'MS-avengers_api-0.1.0.dist-info/METADATA'
+adding 'MS-avengers_api-0.1.0.dist-info/WHEEL'
+adding 'MS-avengers_api-0.1.0.dist-info/top_level.txt'
+adding 'MS-avengers_api-0.1.0.dist-info/RECORD'
 removing build/bdist.linux-x86_64/wheel
 ls -l dist
 total 12
--rw-rw-r-- 1 nickfury nickfury 4937 nov 20 11:50 MS_Scaffold-0.1.0-py3-none-any.whl
--rw-rw-r-- 1 nickfury nickfury 3467 nov 20 11:50 MS-Scaffold-0.1.0.tar.gz
+-rw-rw-r-- 1 nickfury nickfury 4937 nov 20 11:50 MS-avengers_api-0.1.0-py3-none-any.whl
+-rw-rw-r-- 1 nickfury nickfury 3467 nov 20 11:50 MS-avengers_api-0.1.0.tar.gz
 twine upload --repository-url http://nexus3.avengers.com/repository/pypi-internal/ dist/*
 Enter your username: nickfury
 Enter your password: **********************
@@ -533,13 +533,13 @@ python setup.py install
 running install
 running bdist_egg
 running egg_info
-creating MS_Scaffold.egg-info
-writing MS_Scaffold.egg-info/PKG-INFO
-writing dependency_links to MS_Scaffold.egg-info/dependency_links.txt
-writing top-level names to MS_Scaffold.egg-info/top_level.txt
-writing manifest file 'MS_Scaffold.egg-info/SOURCES.txt'
-reading manifest file 'MS_Scaffold.egg-info/SOURCES.txt'
-writing manifest file 'MS_Scaffold.egg-info/SOURCES.txt'
+creating MS-avengers_api.egg-info
+writing MS-avengers_api.egg-info/PKG-INFO
+writing dependency_links to MS-avengers_api.egg-info/dependency_links.txt
+writing top-level names to MS-avengers_api.egg-info/top_level.txt
+writing manifest file 'MS-avengers_api.egg-info/SOURCES.txt'
+reading manifest file 'MS-avengers_api.egg-info/SOURCES.txt'
+writing manifest file 'MS-avengers_api.egg-info/SOURCES.txt'
 installing library code to build/bdist.linux-x86_64/egg
 running install_lib
 running build_py
@@ -580,22 +580,22 @@ byte-compiling build/bdist.linux-x86_64/egg/avengers_api/views/views.py to views
 byte-compiling build/bdist.linux-x86_64/egg/tests/__init__.py to __init__.cpython-35.pyc
 byte-compiling build/bdist.linux-x86_64/egg/tests/test_views.py to test_views.cpython-35.pyc
 creating build/bdist.linux-x86_64/egg/EGG-INFO
-copying MS_Scaffold.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
-copying MS_Scaffold.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
-copying MS_Scaffold.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
-copying MS_Scaffold.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying MS-avengers_api.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying MS-avengers_api.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying MS-avengers_api.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying MS-avengers_api.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
 zip_safe flag not set; analyzing archive contents...
 avengers_api.__pycache__.__init__.cpython-35: module references __file__
 tests.__pycache__.test_views.cpython-35: module references __file__
 creating dist
-creating 'dist/MS_Scaffold-0.1.0-py3.5.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+creating 'dist/MS-avengers_api-0.1.0-py3.5.egg' and adding 'build/bdist.linux-x86_64/egg' to it
 removing 'build/bdist.linux-x86_64/egg' (and everything under it)
-Processing MS_Scaffold-0.1.0-py3.5.egg
-creating /home/nickfury/.virtualenvs/tmp-20eb965128020af/lib/python3.5/site-packages/MS_Scaffold-0.1.0-py3.5.egg
-Extracting MS_Scaffold-0.1.0-py3.5.egg to /home/nickfury/.virtualenvs/tmp-20eb965128020af/lib/python3.5/site-packages
+Processing MS-avengers_api-0.1.0-py3.5.egg
+creating /home/nickfury/.virtualenvs/tmp-20eb965128020af/lib/python3.5/site-packages/MS-avengers_api-0.1.0-py3.5.egg
+Extracting MS-avengers_api-0.1.0-py3.5.egg to /home/nickfury/.virtualenvs/tmp-20eb965128020af/lib/python3.5/site-packages
 Adding MS-avengers_api 0.1.0 to easy-install.pth file
 
-Installed /home/nickfury/.virtualenvs/tmp-20eb965128020af/lib/python3.5/site-packages/MS_Scaffold-0.1.0-py3.5.egg
+Installed /home/nickfury/.virtualenvs/tmp-20eb965128020af/lib/python3.5/site-packages/MS-avengers_api-0.1.0-py3.5.egg
 Processing dependencies for MS-avengers_api==0.1.0
 Finished processing dependencies for MS-avengers_api==0.1.0
 
