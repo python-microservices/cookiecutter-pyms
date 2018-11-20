@@ -34,7 +34,7 @@ def create_view():
         db.session.add(my_obj)
         db.session.commit()
 
-        return jsonify({{cookiecutter.table_name}}.serialize)
+        return jsonify(my_obj.serialize)
     return jsonify({})
 {% else %}
 def dummy_view():

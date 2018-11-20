@@ -15,7 +15,7 @@ else:
     long_description = '{{cookiecutter.project_short_description}}'
 
 setup(
-    name="MS-Scaffold",
+    name="MS-{{cookiecutter.project_slug}}",
     version=version,
     author=author,
     author_email=author_email,

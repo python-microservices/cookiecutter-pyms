@@ -51,13 +51,14 @@ clean-test: ## remove test and coverage artifacts
 	rm -fr htmlcov/
 	rm -fr .pytest_cache
 
-lint: ## check style with flake8 and pylint
-	flake8 {{cookiecutter.project_slug}} tests
+lint: ## check style with pylint
 	pylint {{cookiecutter.project_slug}}/* > pylintReport.txt
 
-test:
-	py.test
+flake8: ## check style with flake8
+	flake8 {{cookiecutter.project_slug}} tests  > pyflake8tReport.txt
 
+test: ## run tests with py.test
+	py.test
 
 test-all: ## run tests on every Python version with tox
 	tox
@@ -69,7 +70,7 @@ coverage: ## check code coverage quickly with the default Python
 	coverage html
 	$(BROWSER) htmlcov/index.html
 
-docs: ## generate Sphinx HTML documentation, including API docs
+docs: ## generate Mkdocs HTML documentation, including API docs
 	mkdocs build
 
 servedocs: docs ## compile the docs watching for changes
