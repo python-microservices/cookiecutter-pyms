@@ -8,6 +8,7 @@
   "create_model_class": "y",
   "model_name": "Avengers (ignore if you response 'n' in create_model_class)",
   "table_name": "avengers (ignore if you response 'n' in create_model_class)",
+  "application_root": "/{{ cookiecutter.project_slug }}",
   "version": "0.1.0",
   "pypi_server": "",
   "create_author_file": "y",
