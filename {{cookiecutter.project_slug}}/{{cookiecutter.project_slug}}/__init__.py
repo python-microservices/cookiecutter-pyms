@@ -10,9 +10,9 @@ __version__ = "{{cookiecutter.version}}"
 
 {% if cookiecutter.create_model_class == 'y' -%}
 class MyMicroservice(Microservice):
-    def init_libs(self, app):
-        db.init_app(app)
-        with app.test_request_context():
+    def init_libs(self):
+        db.init_app(self.application)
+        with self.application.test_request_context():
             db.create_all()
 {% endif %}
 
