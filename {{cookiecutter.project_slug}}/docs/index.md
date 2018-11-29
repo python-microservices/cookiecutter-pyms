@@ -20,7 +20,7 @@ The Microservice create a URL to inspect the Swagger documentation of the api in
 http://localhost:5000/[APPLICATION_ROOT]/ui/
 ```
 
-Our API Rest work with `connexion <http://connexion.readthedocs.io>`_. You can see connexion docs or the official
-`Swagger documentation <https://swagger.io/specification/>`_ to add the syntax to your APIS and create your Swagger docs.
+Our API Rest work with [connexion](http://connexion.readthedocs.io). You can see connexion docs or the official
+[Swagger documentation](https://swagger.io/specification/) to add the syntax to your APIS and create your Swagger docs.
 
 The API definition is contained in `{{cookiecutter.project_slug}}/swagger/*.yml` and it is possible to convert to [RAML files](https://mulesoft.github.io/oas-raml-converter/) if necessary.
