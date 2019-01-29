@@ -16,10 +16,12 @@ def remove_dir(path):
 if __name__ == '__main__':
 
     if '{{ cookiecutter.create_author_file }}' != 'y':
-        remove_file('AUTHORS.rst')
+        if os.path.exists('AUTHORS.rst'):
+            remove_file('AUTHORS.rst')
 
     if '{{ cookiecutter.create_model_class }}' != 'y':
         remove_dir('{{ cookiecutter.project_slug }}/models')
 
     if 'Not open source' == '{{ cookiecutter.open_source_license }}':
-        remove_file('LICENSE')
+        if os.path.exists('LICENSE'):
+            remove_file('LICENSE')
