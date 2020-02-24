@@ -1,4 +1,0 @@
--r requirements.txt
-twine==1.12.1
-# Old version because https://github.com/mkdocs/mkdocs/pull/1427 and this has incompatibility with jaeger-client-python
-mkdocs==0.17.5

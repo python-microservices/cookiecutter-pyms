@@ -30,26 +30,23 @@ Generate a Python Microservice project:
 
 ```
   (env) $ cookiecutter https://github.com/python-microservices/microservices-template.git
-  (env) $ full_name [Nick Fury]: Nicholas Joseph Fury
-  (env) $ email [nick_fury@avengers.com]: 
-  (env) $ project_repo_url [https://github.com/python-microservices/microservices-scaffold]: https://github.com/nickfury/my-ms
-  (env) $ project_name [Python Microservices Boilerplate]: Avengers API
-  (env) $ project_slug [avengers_api]: 
-  (env) $ project_short_description [Python Boilerplate contains all the boilerplate you need to create a Python package.]: 
-  (env) $ create_model_class [y]: y
-  (env) $ model_name [Colors (ignore if you response 'n' in create_model_class)]: Avenger
-  (env) $ table_name [colors (ignore if you response 'n' in create_model_class)]: avenger
-  (env) $ version [0.1.0]: 0.0.1
-  (env) $ pypi_server []: nexus3.avengers.com/my-pypi-server
-  (env) $ create_author_file [y]: n
-  (env) $ Select open_source_license:
-  (env) $  1 - MIT license
-  (env) $  2 - BSD license
-  (env) $  3 - ISC license
-  (env) $  4 - Apache Software License 2.0
-  (env) $  5 - GNU General Public License v3
-  (env) $  6 - Not open source
-  (env) $ Choose from 1, 2, 3, 4, 5, 6 (1, 2, 3, 4, 5, 6) [1]: 6
+    project_repo_url [https://github.com/python-microservices/microservices-scaffold]: 
+    project_name [Python Microservices Boilerplate]: prueba descarga
+    project_folder [prueba_descarga]: 
+    project_short_description [Python Boilerplate contains all the boilerplate you need to create a Python package.]: 
+    create_model_class [y]: 
+    microservice_with_swagger_and_connexion [y]: 
+    microservice_with_traces [y]: 
+    microservice_with_metrics [y]: 
+    application_root [/prueba_descarga]: 
+    Select open_source_license:
+    1 - MIT license
+    2 - BSD license
+    3 - ISC license
+    4 - Apache Software License 2.0
+    5 - GNU General Public License v3
+    6 - Not open source
+    Choose from 1, 2, 3, 4, 5, 6 [1]: 
   
 ```
 

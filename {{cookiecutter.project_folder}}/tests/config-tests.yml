@@ -1,0 +1,30 @@
+pyms:
+  services:
+    requests:
+      data: ""
+    {% if cookiecutter.microservice_with_swagger_and_connexion == 'y' -%}
+      swagger:
+        path: "swagger"
+        file: "swagger.yaml"
+        url: "/ui/"
+        project_dir: "project.views"
+    {% endif -%}
+    {% if cookiecutter.microservice_with_traces == 'y' -%}
+      tracer:
+        client: "jaeger"
+        host: "localhost"
+        component_name: "{{ cookiecutter.project_name }}"
+    {% endif -%}
+    {% if cookiecutter.microservice_with_metrics == 'y' -%}
+      metrics: true
+    {% endif %}
+
+  config:
+    DEBUG: false
+    TESTING: true
+    APP_NAME: {{ cookiecutter.project_name }}
+    APPLICATION_ROOT : {{ cookiecutter.application_root }}
+    SQLALCHEMY_TRACK_MODIFICATIONS: true
+    SECRET_KEY: "gjr39dkjn344_!67#"
+    DATABASE: db_test.sqlite3
+    SQLALCHEMY_DATABASE_URI: sqlite:///db_test.sqlite3

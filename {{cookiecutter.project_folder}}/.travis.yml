@@ -1,0 +1,21 @@
+language: python
+sudo: false
+cache: false
+python:
+    - '3.6'
+addons:
+  apt:
+    sources:
+      - deadsnakes
+    packages:
+    - python3.5
+    - python3.5-dev
+install:
+  - pip install -rrequirements-tests.txt
+
+script:
+  - coverage erase
+  - tox
+after_success:
+  - coverage combine
+  - coveralls

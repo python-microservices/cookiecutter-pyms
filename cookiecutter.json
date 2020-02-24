@@ -1,16 +1,12 @@
 {
-  "full_name": "Nick Fury",
-  "email": "nick_fury@avengers.com",
   "project_repo_url": "https://github.com/python-microservices/microservices-scaffold",
   "project_name": "Python Microservices Boilerplate",
-  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_folder": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
   "project_short_description": "Python Boilerplate contains all the boilerplate you need to create a Python package.",
   "create_model_class": "y",
-  "model_name": "Avengers (ignore if you response 'n' in create_model_class)",
-  "table_name": "avengers (ignore if you response 'n' in create_model_class)",
-  "application_root": "/{{ cookiecutter.project_slug }}",
-  "version": "0.1.0",
-  "pypi_server": "",
-  "create_author_file": "y",
+  "microservice_with_swagger_and_connexion": "y",
+  "microservice_with_traces": "y",
+  "microservice_with_metrics": "y",
+  "application_root": "/{{ cookiecutter.project_folder }}",
   "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"]
 }
