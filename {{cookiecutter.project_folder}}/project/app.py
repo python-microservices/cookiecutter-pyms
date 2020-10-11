@@ -10,7 +10,7 @@ from project.views.views import app_bp
 {% endif %}
 
 class MyMicroservice(Microservice):
-    def init_libs(self):
+    def init_libs(self) -> None:
 {% if cookiecutter.create_model_class == 'y' %}
         db.init_app(self.application)
         with self.application.test_request_context():
@@ -24,7 +24,7 @@ class MyMicroservice(Microservice):
             super().init_logger()
         else:
             level = "DEBUG"
-            LOGGING = {
+            LOGGING = {a=3
                 'version': 1,
                 'disable_existing_loggers': False,
                 'handlers': {
@@ -60,7 +60,7 @@ class MyMicroservice(Microservice):
             logging.config.dictConfig(LOGGING)
 
 
-def create_app():
+def create_app() -> None:
     """Initialize the Flask app, register blueprints and intialize all libraries like Swagger, database, the trace system...
     return the app and the database objects.
     :return:

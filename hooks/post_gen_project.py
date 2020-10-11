@@ -1,15 +1,17 @@
 #!/usr/bin/env python
+
 import os
 import shutil
+
 
 PROJECT_DIRECTORY = os.path.realpath(os.path.curdir)
 
 
-def remove_file(filepath):
+def remove_file(filepath: str) -> None:
     os.remove(os.path.join(PROJECT_DIRECTORY, filepath))
 
 
-def remove_dir(path):
+def remove_dir(path: str) -> None:
     shutil.rmtree(path)
 
 
