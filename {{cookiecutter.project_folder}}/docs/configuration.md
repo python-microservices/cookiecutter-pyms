@@ -2,9 +2,9 @@
 
 ## Environments variables of PyMS:
 
-**CONFIGMAP_FILE**: The path to the configuration file. By default, PyMS search the configuration file in your
+**PYMS_CONFIGMAP_FILE**: The path to the configuration file. By default, PyMS search the configuration file in your
 actual folder with the name "config.yml"
-**KEY_FILE**: The path to the key file to decrypt your configuration. By default, PyMS search the configuration file in your
+**PYMS_KEY_FILE**: The path to the key file to decrypt your configuration. By default, PyMS search the configuration file in your
 actual folder with the name "key.key"
 
 ## Create configuration
