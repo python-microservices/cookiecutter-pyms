@@ -6,4 +6,4 @@
 * GitHub repo: https://github.com/python-microservices/microservices-template
 
 
-See [this documentations to how to use](https://python-microservices.github.io/template/)
+See [the documentation to how to use](https://python-microservices.github.io/template/)
