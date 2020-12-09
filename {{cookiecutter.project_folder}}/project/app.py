@@ -24,7 +24,7 @@ class MyMicroservice(Microservice):
             super().init_logger()
         else:
             level = "DEBUG"
-            LOGGING = {a=3
+            LOGGING = {
                 'version': 1,
                 'disable_existing_loggers': False,
                 'handlers': {
