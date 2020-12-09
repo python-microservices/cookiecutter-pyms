@@ -38,7 +38,7 @@ paths:
       produces:
       - "application/json"
       responses:
-        200:
+        "200":
           description: "A detail view with a message"
           schema:
             $ref: '#/definitions/dummy_msg'
@@ -54,7 +54,7 @@ paths:
       produces:
       - "application/json"
       responses:
-        200:
+        "200":
           description: "A detail view with a message"
           schema:
             $ref: '#/definitions/dummy_msg'
